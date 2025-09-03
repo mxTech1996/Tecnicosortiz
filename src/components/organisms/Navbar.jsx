@@ -7,8 +7,8 @@ const NavBar = () => {
   const navLinks = [
     { name: 'Services', href: '#services' },
     { name: 'About Us', href: '#about' },
-    { name: 'Case Studies', href: '#case-studies' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Products', href: '#products' },
+    { name: 'Our Work', href: '#our-work' },
   ];
   const companyName = 'Integrales Técnicos Ortiz';
 
@@ -36,7 +36,7 @@ const NavBar = () => {
           href='#'
           className='hidden md:block px-6 py-2 bg-yellow-400 text-gray-900 font-semibold rounded-full hover:bg-yellow-500 transition-all duration-300 transform hover:scale-105'
         >
-          Get a Free Analysis
+          Get a Quote
         </a>
       </div>
     </motion.header>

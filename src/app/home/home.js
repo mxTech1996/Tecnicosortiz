@@ -9,12 +9,17 @@ import Footer from '../../components/organisms/Footer';
 import { productsData, references, additionalProducts } from '../../data';
 import Button from '@/components/atoms/button';
 import { References } from 'ui-old-version';
-import WhyChooseUs from '@/components/organisms/whyus';
 import AnimatedCategories from '@/components/organisms/About';
-import MissionVisionSection from '@/components/organisms/Benefits';
+import MissionVisionSection from '@/components/organisms/OurWork';
 import HeroSection from '@/components/organisms/Hero';
 import ServicesSection from '@/components/organisms/Services';
-import AboutUsSection from '@/components/organisms/Services';
+import AboutUsSection from '@/components/organisms/About';
+import ProjectsSection from '@/components/organisms/OurWork';
+import PricingSection from '@/components/organisms/Products';
+import HowWeWorkSection from '@/components/organisms/HowWeWork';
+import TestimonialsSection from '@/components/organisms/Testimonial';
+import FutureProofSection from '@/components/organisms/Team';
+import ContactSection from '@/components/organisms/Contact';
 
 export default function Home() {
   const navigate = useRouter();
@@ -25,6 +30,12 @@ export default function Home() {
       <HeroSection />
       <ServicesSection />
       <AboutUsSection />
+      <ProjectsSection />
+      <PricingSection />
+      <HowWeWorkSection />
+      <TestimonialsSection />
+      <FutureProofSection />
+      <ContactSection />
       <Footer />
     </main>
   );

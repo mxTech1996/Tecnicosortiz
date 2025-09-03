@@ -149,7 +149,7 @@ export const dataSite = {
       name: 'Ana López, Freelance Graphic Designer',
       description:
         'I had a problem with my laptop that was driving me crazy and preventing me from working. I contacted the team, and in less than an hour, they were diagnosing the issue remotely. The solution was quick, and they explained everything very clearly. Totally recommended!"',
-      rating: 5,
+      rating: 4,
       image: null,
     },
     {
