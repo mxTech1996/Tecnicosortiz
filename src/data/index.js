@@ -1,6 +1,6 @@
 export const pageName = 'Tecnicos Ortiz';
 
-export const email = 'info@detroit.com';
+export const email = 'tecnicosortiz@emailsecure.lat';
 import { IoCall, IoFileTraySharp, IoMail } from 'react-icons/io5';
 
 export const navData = [
