@@ -12,6 +12,11 @@ const footerLinks = [
   { name: 'Services', href: '#services' },
   { name: 'Pricing', href: '#products' },
   { name: 'Our Work', href: '#our-work' },
+  { name: 'Privacy Policy', href: 'pdf/AP.TECNICORTIZ.SEPTIEMBRE.2025.pdf' },
+  {
+    name: 'Terms of Service',
+    href: 'pdf/TYC.TECNICORTIZ.SEPTIEMBRE.2025.pdf',
+  },
 ];
 
 const Footer = () => {
