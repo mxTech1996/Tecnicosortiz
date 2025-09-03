@@ -25,6 +25,7 @@ const TestimonialsSection = () => {
       transition: { duration: 0.6, ease: 'easeOut' },
     },
   };
+  const telephone = dataSite.telephone;
 
   return (
     <section className='bg-white'>
@@ -41,11 +42,14 @@ const TestimonialsSection = () => {
             Ready to Elevate Your Business?
           </h2>
           <div className='flex flex-col sm:flex-row justify-center items-center gap-4'>
-            <button className='px-8 py-3 bg-yellow-400 text-gray-900 font-semibold rounded-full hover:bg-yellow-500 transition-all duration-300 transform hover:scale-105'>
-              Contact Us
-            </button>
             <a
-              href='#'
+              href='/contact'
+              className='px-8 py-3 bg-yellow-400 text-gray-900 font-semibold rounded-full hover:bg-yellow-500 transition-all duration-300 transform hover:scale-105'
+            >
+              Contact Us
+            </a>
+            <a
+              href={`tel:${telephone}`}
               className='font-semibold hover:text-yellow-300 transition-colors'
             >
               or Schedule a Call &rarr;

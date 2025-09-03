@@ -101,9 +101,9 @@ const AboutUsSection = () => {
             </motion.p>
 
             <motion.div variants={itemVariants}>
-              <button className='px-8 py-3 bg-yellow-400 text-gray-900 font-semibold rounded-full hover:bg-yellow-500 transition-all duration-300 transform hover:scale-105'>
+              {/* <button className='px-8 py-3 bg-yellow-400 text-gray-900 font-semibold rounded-full hover:bg-yellow-500 transition-all duration-300 transform hover:scale-105'>
                 Meet Our Team
-              </button>
+              </button> */}
             </motion.div>
           </motion.div>
         </div>

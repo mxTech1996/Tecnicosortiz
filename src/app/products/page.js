@@ -2,6 +2,7 @@
 
 import Footer from '@/components/organisms/Footer';
 import Navbar from '@/components/organisms/Navbar';
+import PricingSection from '@/components/organisms/Products';
 import { useRouter } from 'next/navigation';
 
 export default function Home() {
@@ -9,8 +10,8 @@ export default function Home() {
 
   return (
     <main>
-      <Navbar isHome={false} withCart={true} withAll={false} />
-
+      <Navbar withCart={true} withAll={false} />
+      <PricingSection isHome={false} />
       <Footer />
     </main>
   );

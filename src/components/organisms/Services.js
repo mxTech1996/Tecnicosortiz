@@ -92,10 +92,10 @@ const ServicesSection = () => {
                 {service.description}
               </p>
               <a
-                href='#'
+                href='/contact'
                 className='flex items-center gap-2 font-semibold text-purple-600 hover:text-purple-800 transition-colors'
               >
-                <span>Learn More</span>
+                <span>Get a quote</span>
                 <LuArrowRight />
               </a>
             </motion.div>

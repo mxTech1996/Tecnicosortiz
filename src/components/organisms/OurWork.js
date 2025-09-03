@@ -102,12 +102,12 @@ const ProjectsSection = () => {
                 <h3 className='text-xl font-bold text-white mt-2'>
                   {project.title}
                 </h3>
-                <a
+                {/* <a
                   href='#'
                   className='inline-block mt-4 text-white font-semibold hover:text-yellow-300 transition-colors'
                 >
                   View Project &rarr;
-                </a>
+                </a> */}
               </div>
             </motion.div>
           ))}
